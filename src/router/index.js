@@ -38,6 +38,11 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/userpages/index',
+    component: () => import('@/views/userpages/index.vue'),
+    hidden: true
+  },
+  {
     path: '/login',
     component: () => import('@/views/login'),
     hidden: true
